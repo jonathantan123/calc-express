@@ -14,6 +14,6 @@ test( "multiplication : given 1 and 2 returns 2", () => {
     expect(multiply(2,1)).toBe(2)
 } ) 
 
-// test( "divide : given 2 and 1 returns 2", () => { 
-//     expect(divide(2,1)).toBe(2)
-// } ) 
+test( "divide : given 2 and 1 returns 2", () => { 
+    expect(divide(2,1)).toBe(2)
+} ) 
